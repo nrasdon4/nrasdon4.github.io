@@ -5,6 +5,27 @@
   <title>Nick Rasdon – CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    .site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 32px;
+    }
+
+    .site-header h1 {
+      margin: 0;
+    }
+
+    .contact a {
+      font-size: 0.95rem;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    .contact a:hover {
+      color: #0366d6;
+    }
+
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       max-width: 800px;
@@ -34,23 +55,30 @@
 </head>
 <body>
 
-<h1>Nick Rasdon</h1>
+<header class="site-header">
+  <div class="name">
+    <h1>Nick Rasdon<h1>
+  </div>
+  <div class="contact">
+    <a href="mailto:you@email.com">nrasdon@gmail.com</a>
+  </div>
+</header>
 <p>
-  Co-founder of a privately operated sports betting syndicate leveraging quantitative models, automation, and disciplined risk management. Generated 7 figures of profits over multiple years, forcing many of America's largest gambling corporations to alter their offered markets and trading strategies; a portion of these profits go directly to our partners, who are almost exclusively average middle class Americans.
+  Co-founder of a privately operated sports betting syndicate leveraging quantitative models, automation, and disciplined risk management. Generated 7 figures of profits over multiple years, forcing many of America's largest gambling corporations to alter their offered markets and trading strategies; a portion of these profits go directly to our partners, who are almost exclusively middle-class Americans.
 </p>
 
 <div class="section">
   <h2>Experience</h2>
   <p><strong>Co-Founder & Trading Lead </strong> — 108 Enterprises (2023–Present)</p>
   <ul>
-    <li>Co-manager and lead trader of a team that generated 7 figures of profits over multiple years, forcing many of America's largest gambling corporations to alter their trading strategies and the markets they offer</li>
-    <li>Enriched 100+ partners with said profits from said corporations, with the vast majority of these partners being middle class Americans</li>
+    <li>Oversees strategy development and execution infrastructure, deciding which markets to attack, when to attack them, and how much to risk</li>
+    <li>Designs and maintains all data pipelines and automation, which includes bet grading, accounting, and the display of +EV opportunities</li>
   </ul>
 </div>
     <p><strong>Independent Sports Trader </strong> — Self-Employed (2021–2023)</p>
   <ul>
-    <li></li>
-    <li></li>
+    <li>Traded sports markets full-time using model-driven pricing</li>
+    <li>Built automated software for capturing data from most American sportsbooks</li>
   </ul>
 </div>
 
@@ -61,7 +89,7 @@
 
 <div class="section">
   <h2>Skills</h2>
-  <p>R, Data Analysis, Automation</p>
+  <p>R, Data Analysis, Automation, Probabilistic Thinking</p>
 </div>
 
 <div class="section">
